@@ -1,0 +1,10 @@
+PLSQL:
+  type: programming
+  extensions:
+    - .sql
+    - .pls
+    - .pks
+    - .pkb
+  tm_scope: source.plsql
+  ace_mode: text
+  language_id: 100
