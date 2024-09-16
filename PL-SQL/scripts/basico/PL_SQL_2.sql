@@ -1,0 +1,12 @@
+-- Exemplo introdução a PL/SQL
+
+DECLARE
+   PegueiOnibus BOOLEAN := TRUE;
+BEGIN
+   IF PegueiOnibus = TRUE THEN
+      DBMS_OUTPUT.PUT_LINE('CHEGOU NA FACULDADE');
+   ELSE
+      DBMS_OUTPUT.PUT_LINE('NÃO CHEGOU NA FACULDADE');
+   END IF;
+END;
+/
