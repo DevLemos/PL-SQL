@@ -1,2 +1,6 @@
 *.pkb linguist-detectable=true
+
+*.pks linguist-language=PLSQL
 *.pkb linguist-language=PLSQL
+*.tps linguist-language=PLSQL
+*.tpb linguist-language=PLSQL
