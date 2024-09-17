@@ -1,0 +1,6 @@
+-- Excluindo um item
+DECLARE
+	V_RA CHAR(9) := '444555666';
+BEGIN
+	DELETE FROM ALUNO WHERE RA = V_RA;
+END;

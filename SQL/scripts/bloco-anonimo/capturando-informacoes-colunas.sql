@@ -1,0 +1,8 @@
+-- Captura informações da coluna
+DECLARE
+	V_RA ALUNO.RA%TYPE := '333444888';
+	V_NOME ALUNO.NOME%TYPE;
+BEGIN
+	SELECT NOME INTO V_NOME FROM ALUNO WHERE RA = V_RA;
+	DBMS_OUTPUT.PUT_LINE ('O nome do aluno é: ' || V_NOME);
+END;

@@ -1,0 +1,16 @@
+-- Exemplo com a tabela aluno
+DECLARE
+ V_RA ALUNO.RA%TYPE := '555666777';
+ V_NOME ALUNO.NOME%TYPE;
+BEGIN
+ SELECT NOME
+  INTO V_NOME
+  FROM ALUNO
+  WHERE RA = V_RA;
+ DBMS_OUTPUT.PUT_LINE(V_RA ||' - '|| V_NOME);
+EXCEPTION
+ WHEN NO_DATA_FOUND THEN
+  DBMS_OUTPUT.PUT_LINE ('Não há nenhum aluno com este RA');
+ WHEN TOO_MANY_ROWS THEN
+  DBMS_OUTPUT.PUT_LINE ('Há mais de um aluno com este RA');
+END;
