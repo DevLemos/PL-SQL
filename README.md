@@ -4,10 +4,9 @@ Bem-vindo ao repositório de scripts PL/SQL e SQL! Este repositório contém uma
 
 <h2>Estrutura do Repositório</h2>
 
-- **scripts/**: Diretório principal onde os scripts PL/SQL estão armazenados.
-- **basic/**: Scripts básicos para iniciantes.
-- **advanced/**: Scripts avançados e exemplos mais complexos.
-- **examples/**: Exemplos de uso prático e exercícios.
+- **scripts/**: Diretório principal onde os scripts PL/SQL e SQL estão armazenados.
+- **basico/**: Scripts básicos para iniciantes.
+- **exemplos/**: Exemplos de uso prático e exercícios.
 
 <h2>Como Usar</h2>
 
